@@ -1,11 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/home/alex/development/misc'
-let g:netrw_dirhist_2='/home/alex'
-let g:netrw_dirhist_3='/home/alex/RailsProjects/iKonverse/app/views/users'
-let g:netrw_dirhist_4='/home/alex/RailsProjects/iKonverse/app/views/notifications'
-let g:netrw_dirhist_5='/home/alex/RailsProjects/iKonverse/.git'
-let g:netrw_dirhist_6='/home/alex/RailsProjects/iKonverse/db/migrate'
-let g:netrw_dirhist_7='/home/alex/RailsProjects/iKonverse/app/views/users'
-let g:netrw_dirhist_8='/home/alex/RailsProjects/iKonverse/app/assets/stylesheets'
-let g:netrw_dirhist_9='/home/alex/RailsProjects/iKonverse'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/home/alex/.vim/bundle/lusty/doc'

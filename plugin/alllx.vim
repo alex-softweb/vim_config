@@ -1,16 +1,14 @@
 " Learning Vim plugin
-" Last Change:	
+" Last Change: 13-03-12
 " Maintainer:	Alex Johnson
 " License:	GPL(to be licensed)
 
 noremap \l :call <SID>cunt(1)<cr>
 
-fun s:cunt(i)
-  let i = a:i
-	while i < 5
+" script local variable
+fun! s:cunt(i)
+  let i = a:i  " function local variable
+	for i in range(1, 3)
 	  echo "count is" i
-	  let i += 1
-	endwhile
+	endfor
 endfunction
-
-
